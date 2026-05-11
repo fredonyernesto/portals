@@ -28,7 +28,7 @@ function ContentCard({ post }) {
             <div style={{ padding: "0.75rem" }}>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "0.4rem"}}>
                     <CategoryBadge category={post.category} />
-                    {avg && <small style={{ color: #e8a400}}>★ {avg}</small>}
+                    {avg && <small style={{ color: "#e8a400"}}>★ {avg}</small>}
                 </div>
                 <h3 style={{ margin: "0 0 0.25rem", fontSize: "0.95rem"}}>{post.title}</h3>
                 <small style={{ color: "var(--muted)"}}>
